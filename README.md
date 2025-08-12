@@ -86,7 +86,7 @@ void main2() {
 ## 📲 API Usage
 
 ### ▶️ Start the service
-```
+```dart
 await service.startService(
     model: AlarmModel(
         title: "Screen_On_View",
