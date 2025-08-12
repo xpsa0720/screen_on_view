@@ -86,23 +86,23 @@ void main2() {
 ## 📲 API Usage
 
 ### ▶️ Start the service
-```dart
-  await service.startService(
-model: AlarmModel(
-title: "Screen_On_View",
-content: "Start foreground service",
-),
+```
+await service.startService(
+    model: AlarmModel(
+        title: "Screen_On_View",
+        content: "Start foreground service",
+    ),
 );
 ```
 
 ### ⏹ Stop the service
 ```dart
-await screenService.endService();
+await screenService.endService()
 ```
 
 ### 🔐 Request permission
 ```dart
-await screenService.requestPermission();
+await screenService.requestPermission()
 ```
 
 If permissions are already granted, this will be ignored.
