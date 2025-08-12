@@ -34,7 +34,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  screen_on_view: ^0.1.0
+  screen_on_view: ^0.1.1
 ```
 ### Usage
 
