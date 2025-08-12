@@ -28,7 +28,7 @@ class ScreenOnViewPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
     private var activity: Activity? = null
 
     override fun onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "screen_on_flutter")
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "screen_on_view")
         channel.setMethodCallHandler(this)
 
         context = flutterPluginBinding.applicationContext

@@ -1,4 +1,4 @@
-# screen_on_flutter
+# screen_on_view
 
 A Flutter plugin that allows you to show a custom Flutter widget when the device screen turns on.  
 Useful for creating lockscreen-style popups like CashWalk or simple greeting screens.
@@ -16,7 +16,7 @@ Useful for creating lockscreen-style popups like CashWalk or simple greeting scr
 
 ## 📌 Key Concepts & Warnings
 
-This plugin, unlike screen_on_flutter, uses a separate Flutter engine.
+This plugin, unlike screen_on_view, uses a separate Flutter engine.
 While it is disadvantageous for state management, it has the advantage of making Flutter engine management easier.
 
 Therefore, the app is separated into two `Activity`s:
@@ -34,7 +34,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  screen_on_flutter: ^0.1.0
+  screen_on_view: ^0.1.0
 ```
 ### Usage
 

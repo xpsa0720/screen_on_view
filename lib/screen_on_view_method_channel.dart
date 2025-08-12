@@ -5,7 +5,7 @@ import 'package:screen_on_view/screen_on_view_platform_interface.dart';
 
 class MethodChannelScreenOnView extends ScreenOnViewPlatform {
   @visibleForTesting
-  final methodChannel = const MethodChannel('screen_on_flutter');
+  final methodChannel = const MethodChannel('screen_on_view');
 
   Future<String?> getPlatformVersion() async {
     final version = await methodChannel.invokeMethod<String>(
